@@ -1,4 +1,12 @@
-# Craxify
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/vulncrax/craxify"><img src="https://github.com/vulncrax/assets/blob/main/craxify.jpg" alt="Craxify" style="width:50%; height:400px;"></a>
+  <br>
+  Craxify: An Automated Bug Bounty Reconnaissance Tool.
+  <br>
+</h1>
+
 
 **Craxify** is an automation tool designed to streamline bug bounty reconnaissance. It simplifies the process of gathering subdomains, filtering active domains, fingerprinting web technologies, and finding endpoints, JS files, and potential misconfigurations.
 
@@ -14,5 +22,6 @@
 ## Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/craxify.git
+   git clone https://github.com/vulncrax/craxify.git
    cd craxify
+   bash install.sh
