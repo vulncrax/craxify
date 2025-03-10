@@ -19,7 +19,7 @@
 - **JavaScript File Detection**: Extracts `.js` files for further analysis.
 - **CORS Misconfiguration Check**: Uses `Corsy` and `nuclei` to detect misconfigurations.
 
-## Installation
+# Installation
 1. Clone the repository:  
 ```bash
    git clone https://github.com/vulncrax/craxify.git
@@ -27,7 +27,7 @@
    bash install.sh
 ```
 
-
+# Usage
 
   ```console
 
