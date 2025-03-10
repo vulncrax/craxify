@@ -27,6 +27,14 @@
    bash install.sh
 ```
 
+**TARGET OPTIONS**
+ 
+| Parameter | Description |
+|------|-------------|
+| -h | Help |
+| -d | Target domian |
+| -c | contact  |
+
 # Usage
 
   ```console
@@ -104,4 +112,10 @@ http://rest.vulnweb.com [200 OK] Apache[2.4.25], Country[UNITED STATES][US], HTM
 ERROR Opening: http://testhtml5.vulnweb.com - Hostname not known: testhtml5.vulnweb.com
 http://testphp.vulnweb.com [200 OK] ActiveX[D27CDB6E-AE6D-11cf-96B8-444553540000], Adobe-Flash, Country[UNITED STATES][US], Email[wvs@acunetix.com], HTTPServer[nginx/1.19.0], IP[44.228.249.3], Object[http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0][clsid:D27CDB6E-AE6D-11cf-96B8-444553540000], PHP[5.6.40-38+ubuntu20.04.1+deb.sury.org+1], Script[text/JavaScript], Title[Home of Acunetix Art], X-Powered-By[PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1], nginx[1.19.0]
 [] Running waybackurls
+```
+
+## Example Usage
+
+```bash
+craxify -d vulnweb.com
 ```
