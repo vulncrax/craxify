@@ -119,3 +119,23 @@ http://testphp.vulnweb.com [200 OK] ActiveX[D27CDB6E-AE6D-11cf-96B8-444553540000
 ```bash
 craxify -d vulnweb.com
 ```
+
+## Dependencies
+
+
+- [Nuclei](https://github.com/projectdiscovery/nuclei)
+- [httpx](https://github.com/projectdiscovery/httpx)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [Katana](https://github.com/projectdiscovery/katana)
+- [Subzy](https://github.com/LukaSikic/subzy)
+- [GAU](https://github.com/lc/gau)
+- [URLFinder](https://github.com/pingc0y/URLFinder)
+- [Corsy](https://github.com/s0md3v/Corsy)
+- [Hakrawler](https://github.com/hakluke/hakrawler)
+- [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
+- [Uro](https://github.com/s0md3v/uro)
+- [Dnsx](https://github.com/projectdiscovery/dnsx)
+- [Urldedupe](https://github.com/ameenmaali/urldedupe)
+- [Urless](https://github.com/xnl-h4ck3r/urless)
+- [Waybackurls](https://github.com/tomnomnom/waybackurls)
+
