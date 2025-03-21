@@ -8,7 +8,12 @@
 </h1>
 
 
-**Craxify** is an automation tool designed to streamline bug bounty reconnaissance. It simplifies the process of gathering subdomains, filtering active domains, fingerprinting web technologies, and finding endpoints, JS files, and potential misconfigurations.
+
+<hr>
+
+> Craxify is an automation tool designed to streamline bug bounty reconnaissance. It simplifies the process of gathering subdomains, filtering active domains, fingerprinting web technologies, and finding endpoints, JS files, and potential misconfigurations
+
+<br>
 
 ## Features
 - **Subdomain Enumeration**: Uses `subfinder` to find subdomains and `httpx` to filter active ones.
