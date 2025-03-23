@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/vulncrax/craxify"><img src="https://github.com/vulncrax/assets/blob/main/transparent.png" alt="Craxify" style="width:40%; height:400px;"></a>
+  <a href="https://github.com/vulncrax/craxify"><img src="https://github.com/vulncrax/assets/blob/main/transparent.png" alt="Craxify" style="width:500px; height:500px;"></a>
   <br>
   Craxify <br> An Automated Bug Bounty Reconnaissance Tool.
   <br>
