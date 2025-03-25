@@ -1,17 +1,17 @@
 
-<h1 align="center">
+<h2 align="center">
   <br>
   <a href="https://github.com/vulncrax/craxify"><img src="https://github.com/vulncrax/assets/blob/main/transparent.png" alt="Craxify" style="width:300px; "></a>
   <br>
-  Craxify <br> An Automated Bug Bounty Reconnaissance Tool.
+  Craxify <br> Automated Reconnaissance Framework for Bug Bounty Hunters
   <br>
-</h1>
+</h2>
 
 
 
 <hr>
 
-> Craxify is an automation tool designed to streamline bug bounty reconnaissance. It simplifies the process of gathering subdomains, filtering active domains, fingerprinting web technologies, and finding endpoints, JS files, and potential misconfigurations
+> Craxify is an advanced automated reconnaissance pipeline built for serious bug bounty professionals. It integrates leading open-source tools to perform deep asset discovery, active subdomain resolution, technology fingerprinting, historical URL extraction, JavaScript endpoint mapping, vulnerability pattern matching, and misconfiguration analysis — all organized into a clean, domain-specific workspace with minimal user input.
 
 <br>
 
@@ -20,13 +20,17 @@
 
 
 ## Features
-- **Subdomain Enumeration**: Uses `subfinder` to find subdomains and `httpx` to filter active ones.
+- **Subdomain Enumeration**: Uses `subfinder` and `assetfinder` to find subdomains and `httpx` to filter active ones.
 - **Domain Resolution**: Resolves subdomains to IPs using `dnsx`.
-- **Technology Identification**: Identifies web technologies with `whatweb`.
-- **URL Collection**: Aggregates URLs with `waybackurls`, `gau`, `katana`, and more.
-- **Endpoint Discovery**: Filters URLs for sensitive files, such as `.json`, `.db`, and `.config`.
+- **Technology Identification**: Identifies web technologies with `cdncheck`.
+- **URL Collection**: Aggregates URLs with `waybackurls`, `gau`, `katana`, `hakrawler`, and `urlfinder`.
+- **Endpoint Discovery**: Filters URLs for sensitive files, such as `.json`, `.db`, `.config`, `.txt`, `.log`, `.cache`, `.secret`, `.backup`, `.yml`, `.gz`, `.rar`, and `.zip`.
 - **JavaScript File Detection**: Extracts `.js` files for further analysis.
-- **CORS Misconfiguration Check**: Uses `Corsy` and `nuclei` to detect misconfigurations.
+- **Subdomain Takeover Detection**: Uses `subzy` to find potential subdomain takeovers.
+- **CORS Misconfiguration Check**: Uses `Corsy` to detect misconfigurations.
+- **Vulnerability Scanning**: Uses `nuclei` to scan for vulnerabilities.
+- **Open Redirect Finding**: Detects open redirect vulnerabilities by replacing query parameters and checking for redirections.
+
 
 # Installation
 1. Clone the repository:  
