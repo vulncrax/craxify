@@ -146,7 +146,7 @@ nuclei -dast -retries 2 -silent -l $DOMAIN_DIR/endpoints.txt | sudo tee $DOMAIN_
 cat $DOMAIN_DIR/endpoints.txt | gf redirect | uro | sort -u | sudo tee $DOMAIN_DIR/redirect_params.txt
 
 
-cat $DOMAIN_DIR/redirect_params.txt  | qsreplace "https://evil.com" | xargs -I {} curl -s -o /dev/null -w "%{url_effective} -> %{redirect_url}\n" {} | grep https://evil.com
+sudo cat $DOMAIN_DIR/redirect_params.txt  | qsreplace "https://evil.com" | xargs -I {} curl -s -o /dev/null -w "%{url_effective} -> %{redirect_url}\n" {} | grep https://evil.com
 
 
 
