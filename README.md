@@ -147,6 +147,7 @@ craxify -d vulnweb.com
 - [Urldedupe](https://github.com/ameenmaali/urldedupe)
 - [Urless](https://github.com/xnl-h4ck3r/urless)
 - [Waybackurls](https://github.com/tomnomnom/waybackurls)
+- [Cdncheck](https://github.com/projectdiscovery/cdncheck)
 
   <p align="center">
 <img src="https://github.com/user-attachments/assets/9ec3fed0-45ff-4cb3-988c-f8cd66e85082">
