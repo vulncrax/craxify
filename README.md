@@ -15,6 +15,10 @@
 
 <br>
 
+
+ <a href="https://github.com/vulncrax/craxify"><img src="https://github.com/vulncrax/craxify/blob/main/craxify.png" alt="Craxify" ></a>
+
+
 ## Features
 - **Subdomain Enumeration**: Uses `subfinder` to find subdomains and `httpx` to filter active ones.
 - **Domain Resolution**: Resolves subdomains to IPs using `dnsx`.
