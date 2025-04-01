@@ -142,7 +142,7 @@ craxify -d vulnweb.com
 - [Katana](https://github.com/projectdiscovery/katana)
 - [Subzy](https://github.com/LukaSikic/subzy)
 - [GAU](https://github.com/lc/gau)
-- [URLFinder](https://github.com/pingc0y/URLFinder)
+- [URLFinder](https://github.com/projectdiscovery/urlfinder)
 - [Corsy](https://github.com/s0md3v/Corsy)
 - [Hakrawler](https://github.com/hakluke/hakrawler)
 - [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
