@@ -106,7 +106,6 @@ sudo cat $DOMAIN_DIR/subdomains.txt | sudo cdncheck -resp  -o $DOMAIN_DIR/web-te
 # Step 5: Collecting URLs
 printf "${BOLD}${GREEN}[] Running waybackurls${NORMAL}\n\n"
 cat "$DOMAIN_DIR/resolved.txt" | waybackurls | sudo tee "$DOMAIN_DIR/wayback.txt"
-cat $DOMAIN_DIR/resolved.txt  | sudo cdncheck -resp -o $DOMAIN_DIR/web-technologies.txt
 
 printf "${BOLD}${GREEN}[] Running Gau${NORMAL}\n\n"
 cat "$DOMAIN_DIR/resolved.txt" | sudo gau --o "$DOMAIN_DIR/gau.txt"
